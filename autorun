@@ -1,0 +1,219 @@
+#!/bin/bash
+
+red='\033[31m'
+green='\033[32m'
+orange='\033[33m'
+blue='\033[34m'
+neutral='\033[m'
+
+echo -e "${red}Redirection to the game directory ...${neutral}"
+cd $(dirname ${BASH_SOURCE[0]})
+echo -e "${red}Compilation...${neutral}"
+make
+echo -e "${green}Compilation OK !${neutral}"
+echo -e "${red}Which map do you want to launch?${neutral}
+${blue}1 - Basic_00
+2 - Basic_01
+3 - Maze_Small
+4 - Maze_Medium
+5 - Maze_Large
+6 - Makefile
+7 - main.c
+8 - wolf3d.h
+9 - Quit${neutral}"
+read -p "1/2/3/4/5/6/7/8/9 : " map
+while ([ $map != 9 ] || [ -z $map ]) > /dev/null 2>&1
+do
+    if [ $map = "1" ] > /dev/null 2>&1
+    then
+        echo -e "${green}Lancement du jeu avec la map Basic_00...${neutral}"
+        echo -e "${red}Controls...${neutral}
+        ${orange}Activate textures : T
+        Menu : Tab
+        Move : WASD
+        Camera : Mouse / Arrows
+        Shoot : Left click
+        Reload : R
+        Sprint : Left shift
+        Minimap : N/M
+        Resize window : Y${neutral}"
+        ./wolf3d map/Basic_00 > /dev/null 2>&1
+        echo -e "${red}Do you want to launch another map?${neutral}"
+		read -p "yes/no : " newmap
+		if ([ $newmap = "y" ] || [ $newmap = "o" ] || [ $newmap = "yes" ] || [ $newmap = "Y" ] || [ $newmap = "O" ] || [ $newmap = "oui" ] || [ $newmap = "OUI" ] || [ $newmap = "YES" ]) > /dev/null 2>&1
+		then
+            echo -e "${blue}New map...${neutral}"
+        else
+            break
+        fi
+    elif [ $map = "2" ] > /dev/null 2>&1
+    then
+        echo -e "${green}Lancement du jeu avec la map Basic_01...${neutral}"
+        echo -e "${red}Controls...${neutral}
+        ${orange}Activate textures : T
+        Menu : Tab
+        Move : WASD
+        Camera : Mouse / Arrows
+        Shoot : Left click
+        Reload : R
+        Sprint : Left shift
+        Minimap : N/M
+        Resize window : Y${neutral}"
+        ./wolf3d map/Basic_01 > /dev/null 2>&1
+        echo -e "${red}Do you want to launch another map?${neutral}"
+		read -p "yes/no : " newmap
+		if ([ $newmap = "y" ] || [ $newmap = "o" ] || [ $newmap = "yes" ] || [ $newmap = "Y" ] || [ $newmap = "O" ] || [ $newmap = "oui" ] || [ $newmap = "OUI" ] || [ $newmap = "YES" ]) > /dev/null 2>&1
+		then
+            echo -e "${blue}New map...${neutral}"
+        else
+            break
+        fi
+    elif [ $map = "3" ] > /dev/null 2>&1
+    then
+        echo -e "${green}Lancement du jeu avec la map Maze_Small...${neutral}"
+        echo -e "${red}Controls...${neutral}
+        ${orange}Activate textures : T
+        Menu : Tab
+        Move : WASD
+        Camera : Mouse / Arrows
+        Shoot : Left click
+        Reload : R
+        Sprint : Left shift
+        Minimap : N/M
+        Resize window : Y${neutral}"
+        ./wolf3d map/Maze_Small > /dev/null 2>&1
+        echo -e "${red}Do you want to launch another map?${neutral}"
+		read -p "yes/no : " newmap
+		if ([ $newmap = "y" ] || [ $newmap = "o" ] || [ $newmap = "yes" ] || [ $newmap = "Y" ] || [ $newmap = "O" ] || [ $newmap = "oui" ] || [ $newmap = "OUI" ] || [ $newmap = "YES" ]) > /dev/null 2>&1
+		then
+            echo -e "${blue}New map...${neutral}"
+        else
+            break
+        fi
+    elif [ $map = "4" ] > /dev/null 2>&1
+    then
+        echo -e "${green}Lancement du jeu avec la map Maze_Medium...${neutral}"
+        echo -e "${red}Controls...${neutral}
+        ${orange}Activate textures : T
+        Menu : Tab
+        Move : WASD
+        Camera : Mouse / Arrows
+        Shoot : Left click
+        Reload : R
+        Sprint : Left shift
+        Minimap : N/M
+        Resize window : Y${neutral}"
+        ./wolf3d map/Maze_Medium > /dev/null 2>&1
+        echo -e "${red}Do you want to launch another map?${neutral}"
+		read -p "yes/no : " newmap
+		if ([ $newmap = "y" ] || [ $newmap = "o" ] || [ $newmap = "yes" ] || [ $newmap = "Y" ] || [ $newmap = "O" ] || [ $newmap = "oui" ] || [ $newmap = "OUI" ] || [ $newmap = "YES" ]) > /dev/null 2>&1
+		then
+            echo -e "${blue}New map...${neutral}"
+        else
+            break
+        fi
+    elif [ $map = "5" ] > /dev/null 2>&1
+    then
+        echo -e "${green}Lancement du jeu avec la map Maze_Large...${neutral}"
+        echo -e "${red}Controls...${neutral}
+        ${orange}Activate textures : T
+        Menu : Tab
+        Move : WASD
+        Camera : Mouse / Arrows
+        Shoot : Left click
+        Reload : R
+        Sprint : Left shift
+        Minimap : N/M
+        Resize window : Y${neutral}"
+        ./wolf3d map/Maze_Large > /dev/null 2>&1
+        echo -e "${red}Do you want to launch another map?${neutral}"
+		read -p "yes/no : " newmap
+		if ([ $newmap = "y" ] || [ $newmap = "o" ] || [ $newmap = "yes" ] || [ $newmap = "Y" ] || [ $newmap = "O" ] || [ $newmap = "oui" ] || [ $newmap = "OUI" ] || [ $newmap = "YES" ]) > /dev/null 2>&1
+		then
+            echo -e "${blue}New map...${neutral}"
+        else
+            break
+        fi
+    elif [ $map = "6" ] > /dev/null 2>&1
+    then
+        echo -e "${green}Lancement du jeu avec la map Makefile...${neutral}"
+        echo -e "${red}Controls...${neutral}
+        ${orange}Activate textures : T
+        Menu : Tab
+        Move : WASD
+        Camera : Mouse / Arrows
+        Shoot : Left click
+        Reload : R
+        Sprint : Left shift
+        Minimap : N/M
+        Resize window : Y${neutral}"
+        ./wolf3d Makefile > /dev/null 2>&1
+        echo -e "${red}Do you want to launch another map?${neutral}"
+		read -p "yes/no : " newmap
+		if ([ $newmap = "y" ] || [ $newmap = "o" ] || [ $newmap = "yes" ] || [ $newmap = "Y" ] || [ $newmap = "O" ] || [ $newmap = "oui" ] || [ $newmap = "OUI" ] || [ $newmap = "YES" ]) > /dev/null 2>&1
+		then
+            echo -e "${blue}New map...${neutral}"
+        else
+            break
+        fi
+    elif [ $map = "7" ] > /dev/null 2>&1
+    then
+        echo -e "${green}Lancement du jeu avec la map main.c...${neutral}"
+        echo -e "${red}Controls...${neutral}
+        ${orange}Activate textures : T
+        Menu : Tab
+        Move : WASD
+        Camera : Mouse / Arrows
+        Shoot : Left click
+        Reload : R
+        Sprint : Left shift
+        Minimap : N/M
+        Resize window : Y${neutral}"
+        ./wolf3d sources/main.c > /dev/null 2>&1
+        echo -e "${red}Do you want to launch another map?${neutral}"
+		read -p "yes/no : " newmap
+		if ([ $newmap = "y" ] || [ $newmap = "o" ] || [ $newmap = "yes" ] || [ $newmap = "Y" ] || [ $newmap = "O" ] || [ $newmap = "oui" ] || [ $newmap = "OUI" ] || [ $newmap = "YES" ]) > /dev/null 2>&1
+		then
+            echo -e "${blue}New map...${neutral}"
+        else
+            break
+        fi
+    elif [ $map = "8" ] > /dev/null 2>&1
+    then
+        echo -e "${green}Lancement du jeu avec la map wolf3d.h...${neutral}"
+        echo -e "${red}Controls...${neutral}
+        ${orange}Activate textures : T
+        Menu : Tab
+        Move : WASD
+        Camera : Mouse / Arrows
+        Shoot : Left click
+        Reload : R
+        Sprint : Left shift
+        Minimap : N/M
+        Resize window : Y${neutral}"
+        ./wolf3d includes/wolf3d.h > /dev/null 2>&1
+        echo -e "${red}Do you want to launch another map?${neutral}"
+		read -p "yes/no : " newmap
+		if ([ $newmap = "y" ] || [ $newmap = "o" ] || [ $newmap = "yes" ] || [ $newmap = "Y" ] || [ $newmap = "O" ] || [ $newmap = "oui" ] || [ $newmap = "OUI" ] || [ $newmap = "YES" ]) > /dev/null 2>&1
+		then
+            echo -e "${blue}New map...${neutral}"
+        else
+            break
+        fi
+    else
+        echo -e "${red}You need to type a number between 1 and 9!${neutral}"
+    fi
+    echo -e "${red}Which map do you want to launch?${neutral}
+${blue}1 - Basic_00
+2 - Basic_01
+3 - Maze_Small
+4 - Maze_Medium
+5 - Maze_Large
+6 - Makefile
+7 - main.c
+8 - wolf3d.h
+9 - Quit${neutral}"
+    read -p "1/2/3/4/5/6/7/8/9 : " map
+	done
+echo -e "${green}Thanks mate, see ya ! :)${neutral}"
+exit
