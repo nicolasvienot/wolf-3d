@@ -26,8 +26,8 @@ while ([ $map != 9 ] || [ -z $map ]) > /dev/null 2>&1
 do
     if [ $map = "1" ] > /dev/null 2>&1
     then
-        echo -e "${green}Lancement du jeu avec la map Basic_00...${neutral}"
-        echo -e "${red}Controls...${neutral}
+        echo -e "${green}Launching game with map Basic_00...${neutral}"
+        echo -e "        ${red}Controls...${neutral}
         ${orange}Activate textures : T
         Menu : Tab
         Move : WASD
@@ -48,8 +48,8 @@ do
         fi
     elif [ $map = "2" ] > /dev/null 2>&1
     then
-        echo -e "${green}Lancement du jeu avec la map Basic_01...${neutral}"
-        echo -e "${red}Controls...${neutral}
+        echo -e "${green}Launching game with map Basic_01...${neutral}"
+        echo -e "        ${red}Controls...${neutral}
         ${orange}Activate textures : T
         Menu : Tab
         Move : WASD
@@ -70,8 +70,8 @@ do
         fi
     elif [ $map = "3" ] > /dev/null 2>&1
     then
-        echo -e "${green}Lancement du jeu avec la map Maze_Small...${neutral}"
-        echo -e "${red}Controls...${neutral}
+        echo -e "${green}Launching game with map Maze_Small...${neutral}"
+        echo -e "        ${red}Controls...${neutral}
         ${orange}Activate textures : T
         Menu : Tab
         Move : WASD
@@ -92,8 +92,8 @@ do
         fi
     elif [ $map = "4" ] > /dev/null 2>&1
     then
-        echo -e "${green}Lancement du jeu avec la map Maze_Medium...${neutral}"
-        echo -e "${red}Controls...${neutral}
+        echo -e "${green}Launching game with map Maze_Medium...${neutral}"
+        echo -e "        ${red}Controls...${neutral}
         ${orange}Activate textures : T
         Menu : Tab
         Move : WASD
@@ -114,8 +114,8 @@ do
         fi
     elif [ $map = "5" ] > /dev/null 2>&1
     then
-        echo -e "${green}Lancement du jeu avec la map Maze_Large...${neutral}"
-        echo -e "${red}Controls...${neutral}
+        echo -e "${green}Launching game with map Maze_Large...${neutral}"
+        echo -e "        ${red}Controls...${neutral}
         ${orange}Activate textures : T
         Menu : Tab
         Move : WASD
@@ -136,8 +136,8 @@ do
         fi
     elif [ $map = "6" ] > /dev/null 2>&1
     then
-        echo -e "${green}Lancement du jeu avec la map Makefile...${neutral}"
-        echo -e "${red}Controls...${neutral}
+        echo -e "${green}Launching game with map Makefile...${neutral}"
+        echo -e "        ${red}Controls...${neutral}
         ${orange}Activate textures : T
         Menu : Tab
         Move : WASD
@@ -158,8 +158,8 @@ do
         fi
     elif [ $map = "7" ] > /dev/null 2>&1
     then
-        echo -e "${green}Lancement du jeu avec la map main.c...${neutral}"
-        echo -e "${red}Controls...${neutral}
+        echo -e "${green}Launching game with map main.c...${neutral}"
+        echo -e "        ${red}Controls...${neutral}
         ${orange}Activate textures : T
         Menu : Tab
         Move : WASD
@@ -180,8 +180,8 @@ do
         fi
     elif [ $map = "8" ] > /dev/null 2>&1
     then
-        echo -e "${green}Lancement du jeu avec la map wolf3d.h...${neutral}"
-        echo -e "${red}Controls...${neutral}
+        echo -e "${green}Launching game with map wolf3d.h...${neutral}"
+        echo -e "        ${red}Controls...${neutral}
         ${orange}Activate textures : T
         Menu : Tab
         Move : WASD
