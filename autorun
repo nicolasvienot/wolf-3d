@@ -8,7 +8,7 @@ neutral='\033[m'
 
 echo -e "${red}Redirection to the game directory ...${neutral}"
 cd $(dirname ${BASH_SOURCE[0]})
-echo -e "${red}Compilation...${neutral}"
+echo -e "${red}Compiling...${neutral}"
 make
 echo -e "${green}Compilation OK !${neutral}"
 echo -e "${red}Which map do you want to launch?${neutral}
