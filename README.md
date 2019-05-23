@@ -6,3 +6,5 @@ Résumé: Inspiré du célèbre jeu éponyme des années 90 qui fut le premier F
 ```bash
 $> ./autorun
 ```
+or
+open "autorun" on folder
