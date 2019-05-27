@@ -3,10 +3,6 @@ Résumé: Inspiré du célèbre jeu éponyme des années 90 qui fut le premier F
 
 ### App
 
-https://drive.google.com/open?id=1_iWv1ESie8qfn8sF4n7J2DXuyhUC__jS
-
-![https://drive.google.com/open?id=1_iWv1ESie8qfn8sF4n7J2DXuyhUC__jS](https://github.com/nicolasvienot/wolf3d/raw/master/app_rdme.png "Image of wolfy app")
-
 [![Image of wolfy app](https://github.com/nicolasvienot/wolf3d/raw/master/app_rdme.png)](https://drive.google.com/open?id=1_iWv1ESie8qfn8sF4n7J2DXuyhUC__jS)
 
 
