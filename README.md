@@ -5,7 +5,7 @@ Résumé: Inspiré du célèbre jeu éponyme des années 90 qui fut le premier F
 
 https://drive.google.com/open?id=1_iWv1ESie8qfn8sF4n7J2DXuyhUC__jS
 
-![Image of wolfy app](https://github.com/nicolasvienot/wolf3d/blob/master/app_rdme.png)
+![https://drive.google.com/open?id=1_iWv1ESie8qfn8sF4n7J2DXuyhUC__jS](https://github.com/nicolasvienot/wolf3d/blob/master/app_rdme.png)
 
 ### How to use
 
