@@ -3,7 +3,7 @@ Résumé: Inspiré du célèbre jeu éponyme des années 90 qui fut le premier F
 
 ### Mac App
 
-[![Image of wolfy app](https://github.com/nicolasvienot/wolf3d/raw/master/resources/app_rdme.png)](https://drive.google.com/open?id=1_iWv1ESie8qfn8sF4n7J2DXuyhUC__jS)
+[![Image of wolfy app](https://github.com/nicolasvienot/wolf3d/raw/master/resources/app_rdme.png)](https://drive.google.com/open?id=1ghlmpql-Qmf86JpsRFaOXX9M13sVdfwA)
 
 
 ### How to use
